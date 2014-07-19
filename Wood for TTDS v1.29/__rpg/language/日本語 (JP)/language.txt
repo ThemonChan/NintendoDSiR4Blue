@@ -1,0 +1,278 @@
+//編集者：ネギドラゴン◆xMOiWm66pBTN
+//2011-01-05
+
+[font]
+main = uig.pcf
+language = 0
+
+[start menu]
+Copy = コピー
+Cut = 切り取り
+Paste = 貼り付け
+Delete = 削除
+Setting = 設定
+Info = ファイル詳細
+Help = ヘルプ
+Tools = ツール
+START = START
+
+[message box]
+yes = はい
+no = いいえ
+ok = 決定
+cancel = 取消し
+
+[progress window]
+processing save = 起動中...電源を切らないで下さいね！
+processing copy = コピー中...電源を切らないで下さいね！(%cで取り消し！)
+first use sd = メディアの初期チェック中...
+gba load = GBAゲームのロード中...
+gba save load = GBAセーブのロード中...
+gba save store = GBAセーブ中,電源を切らないで下さいね！
+erase nor = NORの消去中...電源を切らないで下さいね！
+
+[copy file error]
+title = [ファイルやフォルダの不在]
+text = 指定されたファイルやフォルダは見つかりません。
+
+[copy file exists]
+title =  [フォルダ名の重複]
+text = 同名ファイルが存在します。既存ファイルを上書きしますか？
+
+[copy dest is directory]
+title =  [フォルダ名の重複]
+text = 同名のフォルダが存在する為、コピーする事が出来ませんでした。
+
+[move dest is directory]
+title =  [フォルダ名の重複]
+text = 同名のファイルが存在する為、ファイルを移動する事が出来ませんでした。
+
+[no copy dir]
+title = [フォルダのコピー/切り取り]
+text = フォルダのコピー/移動はサポートされていません！
+
+[stop copying file]
+title = [ファイルコピーの中止]
+text = ファイルのコピーを中止しますか？
+
+[confirm delete file]
+title = [ファイル/フォルダ削除の確認]
+text = 一度ファイルを削除すると復元不可能です。"%s"を削除しますか？
+
+[do not delete directory]
+title = [フォルダの削除エラー]
+text = フォルダ内が空ではありません。一度ファイルを全削除してください。
+
+[restore save fail]
+title = [セーブリストの読み込みエラー]
+text = "savelist.bin"が見つからないのでセーブリストを読み込めませんでした。
+
+[language changed]
+title = [言語設定]
+text = 言語設定の変更を反映する為に再起動しますか？「いいえ」を選択すると次回起動時に反映されます。
+
+[ui style changed]
+title = [スキン設定]
+text = スキン変更を反映する為に再起動をしますか？「いいえ」を選択すると反映されません。
+
+[setting window]
+ok = OK
+savetype = ｾｰﾌﾞ容量
+cancel = 取消し
+confirm = 確認
+confirm text = 現在の設定を保存しますか？
+close = 閉じる
+system = システム
+interface = インターフェース
+filesystem = ファイル
+gba = GBA
+patches = パッチ
+
+[save type]
+title = ｾｰﾌﾞ容量
+text = セーブタイプ選択
+Unknown = 未/Auto
+No Save = セーブ無し
+4K = 4K
+64K = 64K
+512K = 512K
+2M = 2M
+4M = 4M
+8M = 8M
+16M = 16M
+32M = 32M
+64M = 64M
+default = メイン
+save slot = 保存スロットを選択する
+tab1 = 互換性
+tab2 = 機能
+
+[system setting]
+title = システム設定
+safe mode = セーフモード
+
+[rom info]
+title = ファイル詳細
+file date = 最終更新: %d/%d/%d %02d:%02d:%02d(GMT)
+file size = ﾌｧｲﾙｻｲｽﾞ: %s
+save type = ｾｰﾌﾞﾀｲﾌﾟ: %s
+game code = ｹﾞｰﾑｺｰﾄﾞ: %s
+copy slot = コピースロット
+
+[disk info]
+total = 全体容量: %s
+used = 使用容量: %s
+free = 空き容量: %s
+
+[no free space]
+title = 容量エラー
+text = SDカードの空き容量が不足している為、ファイルをコピー出来ません。
+
+[unsupported sd]
+title = このメディアはサポート出来ません
+text = このメディア(Model:%s)は動作に適切では無いので別のものに変更してください。
+
+[sd card error]
+title = SDカードエラー
+text = メディアにアクセス出来ません。正しく挿入されていることを確認してください。
+
+[no sd for save]
+title = SDカードエラー
+text = メディアにアクセスできないので、セーブデータを"%s"に保存しました。
+
+[no gba card]
+title = GBAロムがありません
+text = スロット２にカートリッジがありません。
+
+[filelist type]
+text = リストタイプ選択
+item0 = NDS
+item1 = NDS + SAV
+item2 = ALL
+
+[rom trim]
+text = トリムコピー
+item0 = 無効
+item1 = 有効
+
+[language]
+text = 言語
+ja = 日本語
+en = 英語
+fr = フランス語
+de = ドイツ語
+it = イタリア語
+es = スペイン語
+
+[ui style]
+text = スキン選択
+
+[help window]
+title = ヘルプ
+item0 = %c  プログラム選択
+item1 = %c  開始/OK/はい
+item2 = %c  戻る/キャンセル/いいえ
+item3 = %c  ファイル詳細/セーブ選択
+item4 = %c  SD/FLASH　切り替え
+item5 = %c  親ディレクトリに戻る
+item6 = %c  照度調整：1/2/3/4
+item7 = %s  スタートメニュー
+item8 = %s  アイコン表示/文字表
+versions = HW: %02x NDD: %02x
+
+[exp window]
+button = 3in1
+title = 3in1拡張パック設定
+ram = RAM
+sram =SRAM
+off = オフ
+low = 弱
+mid = 中
+high = 強
+strength = 震動レベル
+flash to nor = NORモード
+copy to psram = PSRAMモード
+
+[abort save]
+title = セーブ処理の中止
+text = セーブを中止しますか?
+
+[gba warn]
+title = GBA起動エラー
+text = 32MBを超えるGBAロムはサポートされていません。
+
+[patches]
+download play = ダウンロードプレイ
+cheating system = チート機能ON/OFF
+reset in game = ソフトリセット
+dma = DMAモード
+protection = プロテクト回避
+linkage = GBAとリンク
+sd save = SDに直接セーブ
+
+[switches]
+Enable = オン
+Disable = オフ
+Global = 全体(%s)
+
+[ram allocation]
+title = エラー
+memory allocation error = メモリ割り当てエラー
+
+[scrolling]
+fast = 高速
+medium = 中速
+slow = 低速
+
+[file settings]
+title = ファイルシステムの設定
+show hidden files = 隠しファイルを表示する
+save extension = セーブの拡張子
+
+[interface settings]
+title = インターフェイスの設定
+scrolling speed = スクロール速度
+filelist style = ファイルリストのスタイル
+oldschool = テキスト表示
+modern = ファイル名
+internal = 内部表示名
+animation = アイコンアニメ
+12 hour = 12時間表示
+
+[gba settings]
+title = GBA設定
+sleephack = ユニバーサルスリープ
+autosave = 起動時にｾｰﾌﾞをﾊﾞｯｸｱｯﾌﾟする
+mode = Slot-2 mode
+modegba = gbaモード
+modends = ndsモード
+modeask = 確認する
+modetext = Launch slot-2 in NDS mode?
+
+[sd save]
+title = 警告
+text = このゲームはAcekardのフラッシュメモリから起動できません。SDにコピーしてください。
+
+[icon]
+icon = アイコン表示
+transparent = 透明
+as is = そのまま
+firmware = ファームウェア
+
+[cheats]
+title = チート
+info = 詳細…
+deselect = 全選択解除
+
+[saveslot]
+title = セーブスロットコピー
+confirm = セーブスロットをコピーしますか？
+target slot = ターゲットセーブスロット
+
+[mainlist]
+flash memory = Flash Memory
+microsd card = microSDカード
+slot2 card = Slot2 Card
+favorites = お気に入り
+
+[end]
